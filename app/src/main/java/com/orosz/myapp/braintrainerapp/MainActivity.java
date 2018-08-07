@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
     RelativeLayout gameRelativeLayout;
 
+    //there is a bug -> tap everywhere and the game starts againa...two timers, the same score
     public void playAgain(View view) {
 
         //reset All
